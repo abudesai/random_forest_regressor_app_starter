@@ -46,6 +46,6 @@ The FastAPI app also validates the data sent for prediction. The input fields mu
 Your task for this exercise:
 
 1. Create a Docker file for this app which should run the inference service when the container is run.
-2. Build the image and run the container. Make sure you do the port mapping and use the `-it` flag.
+2. Build the image and run the container. Make sure you do the port mapping using the `-p` flag. Use the `-it` flag to see outputs in interactive mode.
 3. Hit the two endpoints and make sure you get the expected responses. You can use Postman to make the HTTP requests. You can also directly go to http://127.0.0.1:80/docs or http://localhost:80/docs and see the list of APIs made available by the service. This is provided to us automatically by FastAPI using Swagger. Port 80 is default port used by most browsers, so you can skip it in the url.
 4. Tag the image with the name you want and push it to your Docker Hub account.

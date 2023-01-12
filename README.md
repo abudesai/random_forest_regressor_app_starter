@@ -19,7 +19,7 @@ About this repo:
   "Clarity": "SI1",
   "Polish": "VG",
   "Symmetry": "VG",
-  "Report": "GIA"}
+  "Report": "GIA"
 }
 ```
 
@@ -35,7 +35,7 @@ Note that the request data should include the sample id (key "Id" in the exhibit
     "Clarity": "SI1",
     "Polish": "VG",
     "Symmetry": "VG",
-    "Report": "GIA"}
+    "Report": "GIA"
   },
   "prediction": 4213.5658
 }

@@ -12,14 +12,14 @@ About this repo:
 
 ```
 {
-  "Id": "Fair",
-  "Carat Weight": 2.0,
-  "Cut": "Good",
-  "Color": "D",
-  "Clarity": "FL",
-  "Polish": "G",
-  "Symmetry": "ID",
-  "Report": "GIA"
+  "Id": "1782",
+  "Carat Weight": 0.91,
+  "Cut": "Very Good",
+  "Color": "F",
+  "Clarity": "SI1",
+  "Polish": "VG",
+  "Symmetry": "VG",
+  "Report": "GIA"}
 }
 ```
 
@@ -28,16 +28,16 @@ Note that the request data should include the sample id (key "Id" in the exhibit
 ```
 {
   "data": {
-    "Id": "Fair",
-    "Carat Weight": 2,
-    "Cut": "Good",
-    "Color": "D",
-    "Clarity": "FL",
-    "Polish": "G",
-    "Symmetry": "ID",
-    "Report": "GIA"
+    "Id": "1782",
+    "Carat Weight": 0.91,
+    "Cut": "Very Good",
+    "Color": "F",
+    "Clarity": "SI1",
+    "Polish": "VG",
+    "Symmetry": "VG",
+    "Report": "GIA"}
   },
-  "prediction": 49835.4973
+  "prediction": 4213.5658
 }
 ```
 

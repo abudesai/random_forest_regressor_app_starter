@@ -1,5 +1,5 @@
 
-app/results/
+app/results/*
 !app/results/.gitkeep 
 
 

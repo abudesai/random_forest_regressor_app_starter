@@ -63,7 +63,7 @@ class Regressor():
 
     
     def save(self, model_path): 
-        joblib.dump(self, os.path.join(model_path, model_fname))
+        joblib.dump(self, os.path.join(model_path, model_fname), compress=4)
 
     @classmethod
     def load(cls, model_path): 

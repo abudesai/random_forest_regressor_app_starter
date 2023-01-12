@@ -48,8 +48,5 @@ Your task for this exercise:
 1. Create a Docker file for this app which should run the inference service when the container is run.
 2. Build the image and run the container. Make sure you do the port mapping and use the `-it` flag.
 3. Hit the two endpoints and make sure you get the expected responses.  
-   You could use Postman to make the HTTP requests. You can also directly go to http://127.0.0.1:80/docs or http://localhost:80/docs and see the list of APIs made available by the service. This is provided to us automatically by FastAPI using Swagger.
-
-Port 80 is default port used by most browsers, so you can skip it in the url.
-
+   You could use Postman to make the HTTP requests. You can also directly go to http://127.0.0.1:80/docs or http://localhost:80/docs and see the list of APIs made available by the service. This is provided to us automatically by FastAPI using Swagger. Port 80 is default port used by most browsers, so you can skip it in the url.
 4. Tag the image with the name you want and push it to your Docker Hub account.
